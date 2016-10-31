@@ -1,0 +1,153 @@
+CIS 104
+
+Quiz 1
+
+Mackenzie Bloswick
+
+10/24/2016
+
+
+1. The beginning of a js.doc multiline comment. Anything written in a comment is not read by the computer. This entire comment is called a "Comment header block".
+
+2. The '*' means that we are still in the multiline comment. Following this we ahave the name of the author, and their email address.
+
+3. Still a part of the comment, this line shows which version of the code this is.
+
+4. This line of the comment is a short summary of the code, as well as the date it was made.
+
+5. I believe this space is meant for a list of things that need to be done in the code.
+
+6. This signifies the end of the jsDoc multiline comment.
+
+8. "use strict"; turns on strict mode. This makes the programmer type things in correctly--strictly.
+
+9. This line tells the program to open up, or be able to use the library "readline-sync". Here we assign the word PROMPT to refer to the library. Lines 8 and 9 are our Usage Pragmas.
+
+11. This next section will contain all of our global variable declarations, and our constant declarations and initializations. On this line we declare a boolean value "continueResponse".
+
+12. Here we declare all of our variable values.
+
+13-16. On this line through the 16th line, we are declaring constants and initializing them as well.
+
+18. Here we are creating a method called main. From this method we will run all of the programs methods.
+
+19. This line is javascript's command for clearing the screen.
+
+20. This line calls the method "setContinueResponse". This means that it runs through the method.
+
+21. This is a while statement saying "while variable x = y, do the following."
+
+22-26. Lines 22 through 26 are calls to methods. These are within the While loop.
+
+27. This is called a "for loop". The syntax of a for loop is as follows:" (x = 0; x < 3; x++) {code to be repeated} ". x=0 is section 0, and will be done first but only once for the
+	whole life of the loop. x<3 is section 1 and will be looked at first. It basically is saying "as long as x is less than 3, continue." The "{code to be repeated} is
+	section 2, and will be done next. x++ is section 3 and will be done last. In this particular situation it is an incrementor, and means "add 1 to the value of x."
+
+28. This is the code that will be repeated for the life of the for loop just mentioned.
+
+29. End of curly brace signifies end of for loop block.
+
+30. This end curly brace signifies the end of the while loop.
+
+31. This end curly brace signifies the end of the main method.
+
+33. This is the program's call of the main method. 
+
+35. This creates a method called "setContinueResponse".
+
+36. This is an if statement. If what is in the parenthesis is true, then the following code will execute. In this case, If continueResponse is not equal to null, then execute the code (lines 37 through 40).
+
+37. A single equals sign is the assignment operator. So, this line sets the value of continueResponse to -1.
+
+38. This is a while loop. While what is in the parenthesis is true, keep running the following code. In this case, while continueResponse is not equal to 0, and also not 1, (line 39) ask the user if they'd like to continue.
+39. Assign the value of continueResponse to the input of the user.
+
+40. The end curly brace of the while loop.
+
+41. This is the other side of the if statement. If the "if parameters" set in line 36 are false, the code will come here and run this "else" statement. This else statement sets continueResponse to 1, as shown on line 42.
+
+43. This is the end bracket for the if statement.
+
+44. This is the end bracket for the setContinueResponse method.
+
+46. This is the creation of a method called setCurrentMonth.
+
+47. Another if statement. It means if currentMonth is not equal to null, and currentMonth is less than or equal to MAX_MONTH, then run the following code.
+
+48. If the program reaches this line of code, it will increment currentMonth by 1. This is what the ++ does.
+
+49. If line 47 was false the code will execute this code. It will set currentMonth to 1 using the assignment operator.
+
+54. This creates a new method called setCurrentGrade.
+
+55. Another if statement. If the global variable currentGrade is not equal to 'undefined', and is less than/equal to MAX_GRADE, then...
+
+56. Increment currentGrade by 1.
+
+57. If line 55 is false, this else statement will be run. currentGrade will be set to 0.
+
+59-60. The end of the else statement and the whole method.
+
+62. This creates a new method called setCurrentClassroom.
+
+63. Another If statement. If currentClassroom is not equal to undefined, and is less then/equal to MAX_CLASSROOM, then...
+
+64. Increment currentClassroom by 1.
+
+65. End of the if statement, beginning of an else statement that will run if line 63 is false.
+
+66. If the code reaches the else statement this will run. It will assign currentClassroom's value to 1.
+
+67-68. The end of the else statement, and the whole method.
+
+70. Creates a method called setUpperTuition.
+
+71. This declares a local variable (a variable that only this method can use) called BASE_TUITION. It initialized the variable by setting it's value to 60.
+
+72. This declares another variable called upperTuition, and initializes it's value by assigning it to the product of BASE_TUITION times currentGrade.
+
+73. The end of this method.
+
+75. Creates a new method called processPaymentCoupons.
+
+76. This is a while loop. While the parameters are true, run the following code. While currentGrade is less than/equal to MAX_GRADE then run the following.
+
+77. This is a nested while loop. That means that it is inside another while loop. The parameters of this while loop are while currentClassroom is less than/equal to MAX_CLASSROOM...
+
+78. A nested while loop inside a nested while loop. It says while currentMonth is less than/equal to MAX_MONTH, then do the following.
+
+79. A nested if statement. The parameters are "if current grade equals 0, do the following. If not, go down to else."
+
+80. Prints the value of currentMonth, currentClassroom, currentGrade, and KDG_TUITION.
+
+81. The end of the if statement, beginning of the else statement.
+
+82. Calls the method "setUpperTuition".
+
+83. Prints to standard output the value of currentMonth, currentClassroom, currentGrade, and upperTuition.
+
+84. The end of the else statement.\
+
+85. calls the setCurrentMonth method.
+
+86. The end of the third while loop.
+
+87. Calls the method "setCurrentClassroom".
+
+88. Calls the method "setCurrentMonth".
+
+89. The end of the second while loop.
+
+90. Calls the method "setCurrentGrade".
+
+91. Calls the method "setCurrentClassroom".
+
+92. The end of the first while loop.
+
+93. The end of the method, processPaymentCoupons.
+
+95. Creates as function called printGoodbye
+
+96. Prints "Goodbye" to the screen.
+
+97. The end of the printGoodbye method.
